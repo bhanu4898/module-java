@@ -1,0 +1,31 @@
+class Car
+{
+public String carName; 
+public String carColor; 
+public int wheels; 
+public int engines;
+public int breaks; 
+public void start()
+{
+System.out.println("car "+carName+" starts with "+enginee+" enginee");
+}
+public void move()
+{
+System.out.println("car "+carName+" moves on "+wheels+" wheels");
+}
+}
+public class Cardemo
+{
+public static void main(String args[])
+{
+car c=new car();
+c.carName="benz";
+c.carColor="white";
+c.wheels=4;
+c.enginee=1;
+c.breaks=4;
+c.start();
+c.move();
+c.stop();
+}
+}
